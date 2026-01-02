@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark theme base styles */
+html, body {
+  background: #000;
+  color: #fff;
+  font-family: system-ui, sans-serif;
+}
+
+/* Card styling */
+.card {
+  border: 1px solid #1f2937;
+  background: #111827;
+  border-radius: 0.5rem;
+}
+
+/* Input styling */
+.input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: #111827;
+  border: 1px solid #374151;
+  color: #fff;
+}
+
+/* Buttons */
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.btn-primary {
+  background: #238bff;
+  color: #fff;
+}
+.btn-secondary {
+  background: #374151;
+  color: #fff;
+}
+
+/* Section titles */
+.section-title {
+  font-weight: 600;
+  font-size: 1.125rem;
+}
